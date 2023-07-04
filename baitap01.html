@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-baitap01</title>
+  </head>
+  <style>
+    /* luu y khi dung css phai reset lai cac thuoc tinh */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 60%;
+      margin: 20px 0 0 20px;
+    }
+    h3 {
+      color: blue;
+    }
+    .content-header {
+      margin-top: 10px;
+    }
+    .content-body {
+      background-color: lightgray;
+      margin-top: 10px;
+    }
+    .content-body p {
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+    .colum-left {
+      background-color: green;
+      padding-left: 10px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <!-- area 1 -->
+      <div>
+        <h3>5. Groups of selectors</h3>
+        <p class="content-header">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          voluptates sapiente eaque, ad sunt consequuntur, accusantium, esse
+          corrupti nam reiciendis nisi maxime optio autem! Repudiandae natus
+          aspernatur repellendus. Molestias, totam provident! Cum, non quidem!
+          Illum recusandae odit id aperiam animi.
+        </p>
+      </div>
+
+      <!-- area 2 -->
+      <div class="colum-left">
+        <div class="content-body">
+          <p>CSS example</p>
+          <p>Is this example ...</p>
+          <p>h1 {font-family:san...}</p>
+          <p>h2 {font-family:san...}</p>
+          <p>h3 {font-family:san...}</p>
+          <p>h1,h2,h3 ...</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

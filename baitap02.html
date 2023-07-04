@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-baitap02</title>
+</head>
+<style>
+    /* reset */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 20px 0 0 20px;
+        width: 60%;
+    }
+    .content-1 {
+        margin-left: 10px;
+    }
+    .text-align-content {
+        color: red;
+        background-color: lightgray;
+    }
+    .content-text {
+        height: 30px;
+        border: 1px solid green;
+        text-align: center;
+        padding-top: 15px;
+        margin-top: 10px;
+    }
+    .content-2 {
+        margin-top: 20px;
+        background-color: lightgray;
+        padding: 10px 10px ;
+    }
+    .content-text-2 {
+        background-color: white;
+        border-left: 4px solid green;
+        padding-left: 10px;
+        color: red;
+    }
+    span {
+        color: blue;
+    }
+    .button-1 {
+        background-color: goldenrod;
+        color: white;
+        margin: 10px;
+        width: 30%;
+        height: 25px;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+</style>
+<body>
+    <div class="container">
+        <!-- vung 1  -->
+        <div class="content-1">
+            <h2>Center align Text</h2>
+            <p>AA BB CC <span class="text-align-content">text-align center</span>
+            <div class="content-text">This text is center </div>
+            </p>
+        </div>
+        <!-- vung 2 -->
+        <div class="content-2">
+            <h3 style="margin: 10px 0 ;">AA BB CC </h3>
+            <div class="content-text-2">
+                <p>.center <br>
+                    text-align <span>center </span> <br>
+                    border : <span>3px solid green </span>
+                </p>
+            </div>
+            <button class="button-1">Try it yourseft</button>
+        </div>
+    </div>
+</body>
+
+</html>
