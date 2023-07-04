@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>baitap 07</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .block1 {
+        margin-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        position: relative;
+      }
+      .block2 {
+        border: 1px solid lightgray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .block2 p {
+        margin-left: 10px;
+      }
+      .block3 {
+        text-align: right;
+      }
+      .button1 {
+        color: white;
+        background-color: lightskyblue;
+        border-radius: 5px;
+        padding: 8px;
+        font-size: 15px;
+      }
+      .x {
+        position: absolute;
+        right: 20px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block1">
+      <span style="font-size: 30px">Modal</span>
+      <span class="x">X</span>
+    </div>
+    <div class="block2">
+      <p style="font-size: 20px">
+        Show a second modal and hide this one with the button below.
+      </p>
+    </div>
+    <div class="block3">
+      <button class="button1">Open second modal</button>
+    </div>
+  </body>
+</html>
